@@ -6,7 +6,6 @@ import 'package:provider/provider.dart';
 class ProductPage extends StatelessWidget {
   ProductPage({super.key});
 
-  // TAMBAHAN: parameter ke-3 = link gambar produk
   final products = [
     Product('Keyboard', 'Perangkat untuk mengetik',
         'https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=300&q=60'),
